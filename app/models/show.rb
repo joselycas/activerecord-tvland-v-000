@@ -1,5 +1,5 @@
 class Show < ActiveRecord::Base
-  has_many :characters, through: :actors
+  has_many :characters
   belongs_to :networks
 
 end
