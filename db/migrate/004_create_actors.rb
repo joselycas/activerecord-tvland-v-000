@@ -1,2 +1,2 @@
-class CreateShows < ActiveRecord::Migration
+class CreateActors < ActiveRecord::Migration
 end
