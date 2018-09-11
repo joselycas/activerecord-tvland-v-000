@@ -11,7 +11,7 @@ class Actor < ActiveRecord::Base
       puts "#{s.name}" - "#{s.show}"
       s.name
       s.show
-      binding.pry
+      
     end
   end
 end
