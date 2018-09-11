@@ -10,6 +10,7 @@ class Actor < ActiveRecord::Base
     self.characters.collect do |s|
       s.name
       s.show
+      binding.pry
     end
   end
 end
