@@ -8,8 +8,7 @@ class Actor < ActiveRecord::Base
 
   def list_roles
     self.characters.collect do |s|
-      binding.pry
-      show.name
+      s.name, s.show_id
     end
   end
 end
